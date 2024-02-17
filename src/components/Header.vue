@@ -68,7 +68,7 @@ onMounted(() => {
                 id="mobile-nav"
                 v-if="$navState"
                 @click="(e) => e.stopPropagation()"
-                class="absolute animate-show z-50 bg-p-dark-navy top-full left-0 w-[200px] p-5 pt-8 lg:hidden"
+                class="absolute animate-show z-50 bg-p-dark-navy top-full left-0 w-[200px] p-5 pt-8 lg:hidden mobile-nav"
             >
                 <ul
                     role="list"
@@ -164,4 +164,3 @@ onMounted(() => {
         </div>
     </header>
 </template>
-
