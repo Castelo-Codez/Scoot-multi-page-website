@@ -1,0 +1,31 @@
+{
+    "name": "scoot-multi-page-website",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
+        "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
+        "test:unit": "cypress run --component",
+        "test:unit:dev": "cypress open --component",
+        "cypress:open": "cypress open"
+    },
+    "dependencies": {
+        "sass": "^1.71.0",
+        "vue": "^3.4.15",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.3",
+        "autoprefixer": "^10.4.17",
+        "cypress": "^13.6.3",
+        "postcss": "^8.4.35",
+        "postcss-nesting": "^12.0.2",
+        "start-server-and-test": "^2.0.3",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.11"
+    }
+}
