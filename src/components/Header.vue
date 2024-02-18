@@ -12,7 +12,7 @@ onMounted(() => {
 <template>
     <header role="banner" aria-label="header" class="py-4 bg-white relative">
         <div
-            class="container flex items-center lg:gap-x-20"
+            class="container flex items-center md:gap-x-20"
             aria-label="content wrapper"
         >
             <button
@@ -20,7 +20,7 @@ onMounted(() => {
                 type="button"
                 :aria-expanded="$navState"
                 aria-controls="mobile-nav"
-                class="lg:hidden basis-[40%]"
+                class="md:hidden basis-[40%]"
                 @click="
                     (e) => {
                         e.stopPropagation();
@@ -46,7 +46,7 @@ onMounted(() => {
                 to="/"
                 aria-label="home page link"
                 role="link"
-                class="basis-[60%] lg:basis-0"
+                class="basis-[60%] md:basis-0"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ onMounted(() => {
                 id="mobile-nav"
                 v-if="$navState"
                 @click="(e) => e.stopPropagation()"
-                class="absolute animate-show z-50 bg-p-dark-navy top-full left-0 w-[200px] p-5 pt-8 lg:hidden mobile-nav"
+                class="absolute animate-show z-50 bg-p-dark-navy top-full left-0 w-[200px] p-5 pt-8 md:hidden mobile-nav"
             >
                 <ul
                     role="list"
@@ -120,7 +120,7 @@ onMounted(() => {
             <nav
                 role="navigation"
                 aria-label="desktop navigation"
-                class="hidden lg:flex justify-between items-center flex-1"
+                class="hidden md:flex justify-between items-center flex-1"
             >
                 <ul
                     role="list"

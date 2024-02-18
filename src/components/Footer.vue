@@ -25,7 +25,7 @@ import {RouterLink} from "vue-router";
             <nav
                 role="navigation"
                 aria-label="navigatio links & social media links"
-                class="flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row lg:flex-1 lg:justify-between"
+                class="flex flex-col text-center gap-y-6 lg:text-left lg:gap-y-0 lg:flex-row lg:flex-1 lg:justify-between"
             >
                 <ul
                     role="list"
