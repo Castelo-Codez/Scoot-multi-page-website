@@ -2,7 +2,7 @@
 import MainLandingSecVue from "@/components/MainLandingSec.vue";
 import FeaturesLayout from "@/components/FeaturesLayout.vue";
 import OurThingsLauout from "@/components/OurThingsLauout.vue";
-import job from "@/components/job.vue";
+import Job from "@/components/job.vue";
 import {ref} from "vue";
 const $jobs = ref([
     {
@@ -54,7 +54,7 @@ const $jobs = ref([
     <section aria-label="Jobs section" class="py-20">
         <div class="container" aria-label=" content wrapper">
             <ul role="list" aria-label=" jobs list" class="w-full">
-                <job
+                <Job
                     v-for="job in $jobs"
                     :title="job.title"
                     :location="job.location"
