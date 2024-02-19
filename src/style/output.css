@@ -470,6 +470,10 @@ a {
   background-color: hsl(40, 97%, 58%);
 }
 
+section {
+  overflow-x: hidden;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -868,6 +872,10 @@ a {
   row-gap: 1rem;
 }
 
+.gap-y-5 {
+  row-gap: 1.25rem;
+}
+
 .gap-y-6 {
   row-gap: 1.5rem;
 }
@@ -878,10 +886,6 @@ a {
 
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .rounded-full {
@@ -905,6 +909,11 @@ a {
 .bg-p-dark-navy {
   --tw-bg-opacity: 1;
   background-color: hsl(216 17% 35% / var(--tw-bg-opacity));
+}
+
+.bg-p-light-grey {
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 41% 93% / var(--tw-bg-opacity));
 }
 
 .bg-p-snow {
@@ -961,6 +970,10 @@ a {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-6 {
@@ -1037,6 +1050,10 @@ a {
 
 .text-\[1\.8rem\] {
   font-size: 1.8rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 
 .text-\[2\.1rem\] {
@@ -1318,6 +1335,10 @@ a {
 
   .md\:text-\[1\.3rem\] {
     font-size: 1.3rem;
+  }
+
+  .md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .md\:text-\[1rem\] {

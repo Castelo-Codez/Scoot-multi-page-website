@@ -7,7 +7,7 @@ import accordion from "@/components/accordion.vue";
 </script>
 <template>
     <MainLandingSec src="about" heading="about" />
-    <section aria-label="features" class="py-28 overflow-x-hidden">
+    <section aria-label="features" class="py-28 ">
         <FeaturesLayout
             heading="Mobility for the digital era"
             para="Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."

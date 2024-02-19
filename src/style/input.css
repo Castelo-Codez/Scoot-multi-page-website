@@ -21,4 +21,7 @@
     ::-webkit-scrollbar-thumb {
         background-color: hsl(40, 97%, 58%);
     }
+    section {
+        overflow-x: hidden;
+    }
 }

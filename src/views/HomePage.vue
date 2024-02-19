@@ -99,7 +99,7 @@ import FeaturesLayout from "../components/FeaturesLayout.vue";
         </section>
         <section
             aria-label="steps to get a scooter"
-            class="py-20 overflow-y-hidden"
+            class="py-20 "
         >
             <div
                 class="container relative md:after:content-[''] md:after:absolute md:after:w-3 md:after:h-full md:after:bg-p-light-grey md:after:top-[-27%] md:after:left-[8%] md:after:z-[-1] lg:after:h-[13px] lg:after:w-full lg:after:top-[14%] lg:after:left-[-26%]"
