@@ -721,6 +721,10 @@ section {
   margin-top: 1.25rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .block {
   display: block;
 }
@@ -823,6 +827,10 @@ section {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -972,10 +980,6 @@ section {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1014,6 +1018,11 @@ section {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-28 {
@@ -1117,6 +1126,14 @@ section {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[1\.5\] {
+  color: 1.5;
 }
 
 .transition {
@@ -1279,8 +1296,16 @@ section {
     display: flex;
   }
 
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:hidden {
     display: none;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .md\:basis-0 {
@@ -1291,12 +1316,44 @@ section {
     flex-basis: 45%;
   }
 
+  .md\:basis-\[10\%\] {
+    flex-basis: 10%;
+  }
+
+  .md\:basis-\[20\%\] {
+    flex-basis: 20%;
+  }
+
+  .md\:basis-\[30\%\] {
+    flex-basis: 30%;
+  }
+
+  .md\:basis-\[21\%\] {
+    flex-basis: 21%;
+  }
+
+  .md\:basis-\[\] {
+    flex-basis: ;
+  }
+
+  .md\:basis-\[49\%\] {
+    flex-basis: 49%;
+  }
+
+  .md\:basis-\[15\%\] {
+    flex-basis: 15%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:grid-cols-auto-fill {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1329,6 +1386,41 @@ section {
     row-gap: 0px;
   }
 
+  .md\:gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+
+  .md\:gap-x-72 {
+    -moz-column-gap: 18rem;
+         column-gap: 18rem;
+  }
+
+  .md\:gap-x-32 {
+    -moz-column-gap: 8rem;
+         column-gap: 8rem;
+  }
+
+  .md\:gap-x-52 {
+    -moz-column-gap: 13rem;
+         column-gap: 13rem;
+  }
+
+  .md\:gap-x-40 {
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
+  }
+
+  .md\:gap-x-36 {
+    -moz-column-gap: 9rem;
+         column-gap: 9rem;
+  }
+
+  .md\:gap-x-14 {
+    -moz-column-gap: 3.5rem;
+         column-gap: 3.5rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1355,6 +1447,10 @@ section {
 
   .md\:text-\[3\.5rem\] {
     font-size: 3.5rem;
+  }
+
+  .md\:text-\[2rem\] {
+    font-size: 2rem;
   }
 
   .md\:after\:absolute::after {
