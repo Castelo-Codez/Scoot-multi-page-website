@@ -36,6 +36,7 @@ export default {
             },
             animation: {
                 show: "show .2s ",
+             
             },
             keyframes: {
                 show: {
@@ -49,6 +50,9 @@ export default {
                         transform: "translate3d(0px, 0px, 0px)",
                     },
                 },
+            },
+            gridTemplateColumns: {
+                "auto-fill": "repeat(auto-fill, minmax(300px, 1fr))",
             },
         },
     },
